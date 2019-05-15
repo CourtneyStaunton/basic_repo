@@ -1,0 +1,44 @@
+Last login: Sat May 11 07:55:45 on ttys000
+Courtneys-MacBook-Pro:~ courtneystaunton$ cd destop
+-bash: cd: destop: No such file or directory
+Courtneys-MacBook-Pro:~ courtneystaunton$ 
+Courtneys-MacBook-Pro:~ courtneystaunton$ 
+Courtneys-MacBook-Pro:~ courtneystaunton$ cd desktop
+Courtneys-MacBook-Pro:desktop courtneystaunton$ mkdir basic_repo
+Courtneys-MacBook-Pro:desktop courtneystaunton$ cd basic_repo
+Courtneys-MacBook-Pro:basic_repo courtneystaunton$ touch HelloWorld.html
+Courtneys-MacBook-Pro:basic_repo courtneystaunton$ touch style.css
+Courtneys-MacBook-Pro:basic_repo courtneystaunton$ git remote add origin https://github.com/CourtneyStaunton/basic_repo.git
+fatal: not a git repository (or any of the parent directories): .git
+Courtneys-MacBook-Pro:basic_repo courtneystaunton$ git init
+Initialized empty Git repository in /Users/courtneystaunton/Desktop/basic_repo/.git/
+Courtneys-MacBook-Pro:basic_repo courtneystaunton$ git add HelloWorld.html
+Courtneys-MacBook-Pro:basic_repo courtneystaunton$ git add style.css
+Courtneys-MacBook-Pro:basic_repo courtneystaunton$ git remote add origin https://github.com/CourtneyStaunton/basic_repo.git
+Courtneys-MacBook-Pro:basic_repo courtneystaunton$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/CourtneyStaunton/basic_repo.git'
+Courtneys-MacBook-Pro:basic_repo courtneystaunton$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   HelloWorld.html
+	new file:   style.css
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   HelloWorld.html
+	modified:   style.css
+
+Courtneys-MacBook-Pro:basic_repo courtneystaunton$ git add HelloWorld.html
+Courtneys-MacBook-Pro:basic_repo courtneystaunton$ git add style.css
+Courtneys-MacBook-Pro:basic_repo courtneystaunton$ git remote add origin https://github.com/CourtneyStaunton/basic_repo.git
+fatal: remote origin already exists.
+Courtneys-MacBook-Pro:basic_repo courtneystaunton$ touch commands.txt
+Courtneys-MacBook-Pro:basic_repo courtneystaunton$ 
